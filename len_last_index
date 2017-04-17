@@ -1,0 +1,4 @@
+fruit = "Banana"
+sz = len(fruit)
+lastch = fruit[sz-1]
+print(lastch)
