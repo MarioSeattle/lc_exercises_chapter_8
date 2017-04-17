@@ -1,0 +1,17 @@
+ss = "    Hello, World    "
+
+#count returns how many times L is used
+
+els = ss.count("l")
+print(els)
+
+#removes white space
+print("***" + ss.strip() + "***")
+#No white space in the front
+print("***" + ss.lstrip() + "***")
+#no white space in the back
+print("***" + ss.rstrip() + "***")
+
+#Replaces all occurrences of old substring with new
+news = ss.replace("o", "***")
+print(news)
