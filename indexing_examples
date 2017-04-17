@@ -1,0 +1,5 @@
+s = "python rocks"
+print(s[3])
+
+s = "python rocks"
+print(s[2] + s[-5])
