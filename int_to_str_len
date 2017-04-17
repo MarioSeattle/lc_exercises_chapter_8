@@ -1,0 +1,11 @@
+def number_of_digits(n):
+    nStr = str(n)
+    return (len(nStr))
+
+print(number_of_digits(20))
+print(number_of_digits(200))
+print(number_of_digits(2000))
+
+
+    
+
