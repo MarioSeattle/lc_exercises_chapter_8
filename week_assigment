@@ -1,0 +1,8 @@
+def analyze_text(myString):
+    numChars = sum(c.isalpha() for c in myString)
+    numEs = myString.count('e') + myString.count('E')
+    result = "The text contains {} alphabetic characters, of which {} ({}%) are 'e'.".format(numChars, numEs, str(100.0 * numEs / numChars)[:13])
+    return result
+
+
+print(analyze_text('tesE@~EEEteeeesssstees@#$!EE111'))
